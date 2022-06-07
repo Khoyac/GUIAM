@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/.Proyectos/Guiam/App/app/src/main/res/drawable-hdpi/background_transparent.xml" value="0.211" />
+        <entry key="..\:/.Proyectos/Guiam/App/app/src/main/res/drawable/ic_home.xml" value="0.217" />
+        <entry key="..\:/.Proyectos/Guiam/App/app/src/main/res/layout/activity_login.xml" value="0.2341485507246377" />
+        <entry key="..\:/.Proyectos/Guiam/App/app/src/main/res/layout/activity_main.xml" value="0.1488673139158576" />
+        <entry key="..\:/.Proyectos/Guiam/App/app/src/main/res/layout/activity_map.xml" value="0.3625" />
+        <entry key="..\:/.Proyectos/Guiam/App/app/src/main/res/layout/background_transparent.xml" value="0.2875" />
+        <entry key="..\:/.Proyectos/Guiam/App/app/src/main/res/layout/fragment_map.xml" value="0.3625" />
+        <entry key="..\:/.Proyectos/Guiam/App/app/src/main/res/layout/fragment_search.xml" value="0.28229166666666666" />
+        <entry key="..\:/.Proyectos/Guiam/App/app/src/main/res/layout/nav_header.xml" value="0.1762917933130699" />
+        <entry key="..\:/.Proyectos/Guiam/App/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.1" />
+        <entry key="..\:/.Proyectos/Guiam/App/app/src/main/res/menu/menu.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

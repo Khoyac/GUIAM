@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GUIAM</string>
+    <string name="prefs_file">PREFERENCE_FILE_KEY</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyDgfK0AYUk_BTx7dVEramp0CwtLZa891-Y</string>
+</resources>

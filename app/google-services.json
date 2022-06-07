@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "529756514248",
+    "project_id": "guiam-42817",
+    "storage_bucket": "guiam-42817.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:529756514248:android:826894a4336d0048d542fd",
+        "android_client_info": {
+          "package_name": "com.example.guiam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "529756514248-90s02pge4vl1uegqj336ul7ehu1mn71c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJIBnQYfDqq9JCDW8ZMfD48hjmywEpegs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "529756514248-90s02pge4vl1uegqj336ul7ehu1mn71c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

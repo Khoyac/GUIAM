@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_search"
+        android:title="Buscar"
+        android:enabled="true"
+        android:icon="@drawable/ic_android"/>
+    <item
+        android:id="@+id/nav_list"
+        android:title="Listas"
+        android:enabled="true"
+        android:icon="@drawable/ic_android"/>
+    <item
+        android:id="@+id/nav_map"
+        android:title=""/>
+    <item
+        android:id="@+id/nav_discover"
+        android:title="Descubrir"
+        android:enabled="true"
+        android:icon="@drawable/ic_android"/>
+    <item
+        android:id="@+id/nav_profile"
+        android:title="Perfil"
+        android:enabled="true"
+        android:icon="@drawable/ic_android"/>
+</menu>
