@@ -8,10 +8,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
-import androidx.compose.foundation.ExperimentalFoundationApi
-import androidx.compose.foundation.Image
-import androidx.compose.foundation.border
-import androidx.compose.foundation.clickable
+import androidx.compose.foundation.*
 import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.GridCells
@@ -28,15 +25,18 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.Shape
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.layout.VerticalAlignmentLine
 import androidx.compose.ui.platform.ComposeView
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.text.input.TextFieldValue
 import androidx.compose.ui.text.input.VisualTransformation
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.fragment.app.Fragment
+import com.example.guiam.MainActivity.Companion.mainActivity
 import com.example.guiam.MainActivity.Companion.sampleData
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
@@ -69,8 +69,8 @@ class SearchFragment : Fragment() {
                             .padding(10.dp)
                     ) {
                         items(sampleData.size) { index ->
-                            val city = sampleData.get(index);
-                            citiesListCard(city, context)
+                            val city = sampleData[index];
+                            CitiesListCard(city, context)
                         }
                     }
                 }
@@ -80,38 +80,55 @@ class SearchFragment : Fragment() {
 }
 
 @Composable
-fun citiesListCard(data: Cities, context: Context) {
-    citieCard(
-        title = data.name,
-        cords = data.cords,
-        context = context
-    )
+fun CitiesListCard(data: Cities, context: Context) {
+    Column() {
+        CitieCard(
+            //title = data.name.toByteArray().decodeToString(),
+            title = String(data.name.toByteArray(Charsets.UTF_8)),
+            cords = data.cords,
+            context = context
+        )
+        Spacer(modifier = Modifier
+            .height(1.dp))
+    }
+
 }
 
 @Composable
-fun citieCard(title: String, cords: String, context: Context, modifier: Modifier = Modifier) {
-    Card(
-        modifier = modifier.fillMaxWidth()
+fun CitieCard(title: String, cords: String, context: Context, modifier: Modifier = Modifier) {
+//    Card(
+//        modifier = modifier
+//            .fillMaxWidth()
+//            .clickable(
+//                onClick = {
+//                    Toast
+//                        .makeText(context, "Home Item reselected", Toast.LENGTH_SHORT)
+//                        .show()
+//                    //Creamos el intent para cambiar de activity
+//                    //Y pasar la posicion del JSON que se ha clickado
+//                    Log.i("CIUDAD", "CIUDAD -------------: $title")
+//                }
+//            ),
+////        shape = RoundedCornerShape(15.dp),
+////        elevation = 5.dp
+//    ) {
+        Box(modifier = Modifier
+            .fillMaxWidth()
+            .height(40.dp)
+            .background(Color.White)
             .clickable(
                 onClick = {
-                    Toast.makeText(context, "Home Item reselected", Toast.LENGTH_SHORT).show()
-                    //Creamos el intent para cambiar de activity
-                    //Y pasar la posicion del JSON que se ha clickado
-                    Log.i("CIUDAD", "CIUDAD -------------: $title")
+                    mainActivity.createPolylines()
+                    Toast
+                        .makeText(context, title, Toast.LENGTH_SHORT)
+                        .show()
                 }
             ),
-        shape = RoundedCornerShape(15.dp),
-        elevation = 5.dp
-    ) {
-        Box(modifier = Modifier.height(200.dp)) {
-            Box(
-                modifier = Modifier.fillMaxSize().padding(12.dp),
-                contentAlignment = Alignment.BottomStart
-            ) {
-                Text(title, style = TextStyle(color = Color.White, fontSize = 16.sp))
-            }
+            contentAlignment = Alignment.Center
+        ) {
+            Text(title, style = TextStyle(color = Color.Black, fontSize = 12.sp))
         }
-    }
+    //}
 }
 
 @Composable
@@ -150,6 +167,12 @@ fun TextFieldStyleExample() {
         modifier = Modifier.border(1.dp, color)
     )
 }
+
+//@Preview
+//@Composable
+//fun testCitiCard() {
+//    CitieCard(title = "Test", cords = ".." context = cre)
+//}
 
 //Funcion que recoge los datos del JSON
 fun getJsonFromAsset(context: Context, data: String): String {

@@ -34,9 +34,14 @@ enum class ProviderType {
 
 class MainActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMyLocationButtonClickListener {
     companion object {
+        lateinit var mainActivity: MainActivity
         const val LOCATION_REQUEST_CODE = 0
 
         lateinit var sampleData: List<Cities>
+
+        fun createPoli(Cords: String) {
+
+        }
     }
 
 
@@ -53,7 +58,6 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMyLoca
 
         createMapFragment()
 
-        toolbar("Mi Menu")
         setUserInfo()
     }
 
@@ -128,25 +132,6 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMyLoca
         binding.vlSearch.isVisible = false
     }
 
-    private fun toolbar(title: String) {
-        setSupportActionBar(binding.toolbar)
-        val ab = supportActionBar
-        if(ab != null) {
-            ab.setHomeAsUpIndicator(R.drawable.ic_menu)
-            ab.setDisplayHomeAsUpEnabled(true)
-            ab.setLogo(R.drawable.logo2)
-            ab.title = title
-        }
-    }
-
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        when(item.itemId) {
-            android.R.id.home -> {
-                binding.drawerLayout.openDrawer(GravityCompat.START)
-            }
-        }
-        return super.onOptionsItemSelected(item)
-    }
 
     override fun onMapReady(googleMap: GoogleMap) {
         map = googleMap
@@ -259,7 +244,7 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMyLoca
         }
     }
 
-    private fun createPolylines(){
+    fun createPolylines(){
 
         val corsString = "-0.403360992669946,39.415985107422 -0.405613005161285,39.4128799438477 -0.406691014766693,39.4157524108887 -0.416732996702194,39.4139823913575 -0.420953989028874,39.4194984436036 -0.42077100276947,39.4241256713868 -0.425523012876511,39.4259872436523 -0.426028996706009,39.4305572509766 -0.41967698931694,39.431453704834 -0.420830994844437,39.4351348876953 -0.415152996778488,39.4360694885254 -0.402814000844955,39.4369239807129 -0.401867985725289,39.4280319213867 -0.401899993419647,39.4268684387208 -0.403596013784409,39.4190063476564 -0.403360992669946,39.415985107422"
         val corsPairs = corsString.split(" ")
