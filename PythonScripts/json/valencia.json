@@ -1,0 +1,2002 @@
+{
+  "totalResultsCount": 230,
+  "geonames": [
+    {
+      "adminCode1": "60",
+      "lng": "-0.33333",
+      "geonameId": 2511875,
+      "toponymName": "Ribera Baixa",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Ribera Baixa",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "region",
+      "adminName1": "Valencia",
+      "lat": "39.25",
+      "fcode": "RGN"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.84042",
+      "geonameId": 2521395,
+      "toponymName": "Bajo Segura",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Bajo Segura",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "region",
+      "adminName1": "Valencia",
+      "lat": "38.06693",
+      "fcode": "RGN"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.31714",
+      "geonameId": 8593878,
+      "toponymName": "Puerto de Valencia",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Puerto de Valencia",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "port",
+      "adminName1": "Valencia",
+      "lat": "39.44189",
+      "fcode": "PRT"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.40748",
+      "geonameId": 7870130,
+      "toponymName": "Bioparc Valencia",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Bioparc Valencia",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "amusement park",
+      "adminName1": "Valencia",
+      "lat": "39.47784",
+      "fcode": "AMUS"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.36946",
+      "geonameId": 11876196,
+      "toponymName": "Glorieta",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "la Glorieta",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "park",
+      "adminName1": "Valencia",
+      "lat": "39.47279",
+      "fcode": "PRK"
+    },
+    {
+      "adminCode1": "00",
+      "lng": "-0.66667",
+      "geonameId": 2509953,
+      "toponymName": "Valencia",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Valencia",
+      "fclName": "parks,area, ...",
+      "countryName": "España",
+      "fcodeName": "region",
+      "adminName1": "",
+      "lat": "39.5",
+      "fcode": "RGN"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.01667",
+      "geonameId": 2521444,
+      "toponymName": "Costa del Azahar",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Costa del Azahar",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "coast",
+      "adminName1": "Valencia",
+      "lat": "39.98333",
+      "fcode": "CST"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.09436",
+      "geonameId": 8063435,
+      "toponymName": "Aqualandia",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Aqualandia",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "amusement park",
+      "adminName1": "Valencia",
+      "lat": "38.54106",
+      "fcode": "AMUS"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.56667",
+      "geonameId": 2516533,
+      "toponymName": "Huerta de Valencia",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Huerta de Valencia",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "region",
+      "adminName1": "Valencia",
+      "lat": "39.46667",
+      "fcode": "RGN"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.5",
+      "geonameId": 2511872,
+      "toponymName": "Ribera del Júcar",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Ribera del Júcar",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "region",
+      "adminName1": "Valencia",
+      "lat": "39.16667",
+      "fcode": "RGN"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.16179",
+      "geonameId": 8063437,
+      "toponymName": "Terra Mitica",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Terra Mitica",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "amusement park",
+      "adminName1": "Valencia",
+      "lat": "38.55973",
+      "fcode": "AMUS"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "0.11442",
+      "geonameId": 9796296,
+      "toponymName": "Denia Port",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Puerto Denia",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "port",
+      "adminName1": "Valencia",
+      "lat": "38.84276",
+      "fcode": "PRT"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "0.05202",
+      "geonameId": 10297337,
+      "toponymName": "Aquarama",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Aquarama",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "amusement park",
+      "adminName1": "Valencia",
+      "lat": "40.04744",
+      "fcode": "AMUS"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.68286",
+      "geonameId": 8436639,
+      "toponymName": "Plaza de la Constitución",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Plaza de la Constitución",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "park",
+      "adminName1": "Valencia",
+      "lat": "37.97749",
+      "fcode": "PRK"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.4958",
+      "geonameId": 9253704,
+      "toponymName": "Port de Alicante",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Port de Alicante",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "port",
+      "adminName1": "Valencia",
+      "lat": "38.33422",
+      "fcode": "PRT"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.41667",
+      "geonameId": 2511876,
+      "toponymName": "Ribera Alta",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Ribera Alta",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "region",
+      "adminName1": "Valencia",
+      "lat": "39.13333",
+      "fcode": "RGN"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.33333",
+      "geonameId": 2509908,
+      "toponymName": "Valle de Ceta",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Valle de Ceta",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "region",
+      "adminName1": "Valencia",
+      "lat": "38.75",
+      "fcode": "RGN"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.41667",
+      "geonameId": 2509889,
+      "toponymName": "Valle de Travadell",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Valle de Travadell",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "region",
+      "adminName1": "Valencia",
+      "lat": "38.75",
+      "fcode": "RGN"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.55",
+      "geonameId": 2514292,
+      "toponymName": "Maimona",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Maimona",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "locality",
+      "adminName1": "Valencia",
+      "lat": "39.68333",
+      "fcode": "LCTY"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.66667",
+      "geonameId": 2515782,
+      "toponymName": "La Marina",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "La Marina",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "region",
+      "adminName1": "Valencia",
+      "lat": "38.58333",
+      "fcode": "RGN"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.38727",
+      "geonameId": 6949616,
+      "toponymName": "Costa de Valencia",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Costa de Valencia",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "coast",
+      "adminName1": "Valencia",
+      "lat": "39.47437",
+      "fcode": "CST"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.6235",
+      "geonameId": 10346031,
+      "toponymName": "Karting Valencia Luis Climent",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Karting Valencia Luis Climent",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "amusement park",
+      "adminName1": "Valencia",
+      "lat": "39.48838",
+      "fcode": "AMUS"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.15599",
+      "geonameId": 11979396,
+      "toponymName": "Puerto Gandía",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Puerto Gandía",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "port",
+      "adminName1": "Valencia",
+      "lat": "38.99511",
+      "fcode": "PRT"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.31667",
+      "geonameId": 2567526,
+      "toponymName": "Port Saplaya",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Port Saplaya",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "port",
+      "adminName1": "Valencia",
+      "lat": "39.51111",
+      "fcode": "PRT"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.34796",
+      "geonameId": 10281087,
+      "toponymName": "L 'Oceanogràfic",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "L 'Oceanogràfic",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "amusement park",
+      "adminName1": "Valencia",
+      "lat": "39.45315",
+      "fcode": "AMUS"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.40793",
+      "geonameId": 10345517,
+      "toponymName": "Cabecera Park",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Cabecera Park",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "park",
+      "adminName1": "Valencia",
+      "lat": "39.47486",
+      "fcode": "PRK"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.35937",
+      "geonameId": 10345519,
+      "toponymName": "Gulliver kids park",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Gulliver kids park",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "park",
+      "adminName1": "Valencia",
+      "lat": "39.46244",
+      "fcode": "PRK"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.38226",
+      "geonameId": 10345526,
+      "toponymName": "Marxalenes Park",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Marxalenes Park",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "park",
+      "adminName1": "Valencia",
+      "lat": "39.4868",
+      "fcode": "PRK"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.39707",
+      "geonameId": 10345527,
+      "toponymName": "Parc de Benicalap",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Parc de Benicalap",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "park",
+      "adminName1": "Valencia",
+      "lat": "39.49791",
+      "fcode": "PRK"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-1.2",
+      "geonameId": 2518050,
+      "toponymName": "El Verdinal",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "El Verdinal",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "locality",
+      "adminName1": "Valencia",
+      "lat": "39.5",
+      "fcode": "LCTY"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-1.33333",
+      "geonameId": 2518153,
+      "toponymName": "El Romeral",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "El Romeral",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "locality",
+      "adminName1": "Valencia",
+      "lat": "39.63333",
+      "fcode": "LCTY"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-1.28333",
+      "geonameId": 2518182,
+      "toponymName": "El Renegado",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "El Renegado",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "locality",
+      "adminName1": "Valencia",
+      "lat": "39.53333",
+      "fcode": "LCTY"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-1.26667",
+      "geonameId": 2518503,
+      "toponymName": "El Despeñadero",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "El Despeñadero",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "locality",
+      "adminName1": "Valencia",
+      "lat": "39.68333",
+      "fcode": "LCTY"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-1.2",
+      "geonameId": 2518537,
+      "toponymName": "El Collado",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "El Collado",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "locality",
+      "adminName1": "Valencia",
+      "lat": "39.65",
+      "fcode": "LCTY"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-1.18333",
+      "geonameId": 2518605,
+      "toponymName": "El Carrascal",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "El Carrascal",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "locality",
+      "adminName1": "Valencia",
+      "lat": "39.75",
+      "fcode": "LCTY"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-1.37168",
+      "geonameId": 2518726,
+      "toponymName": "El Ardal",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "El Ardal",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "locality",
+      "adminName1": "Valencia",
+      "lat": "39.62627",
+      "fcode": "LCTY"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-1.45",
+      "geonameId": 2520376,
+      "toponymName": "Cañada de la Pedriza",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Cañada de la Pedriza",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "locality",
+      "adminName1": "Valencia",
+      "lat": "39.51667",
+      "fcode": "LCTY"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-1.2",
+      "geonameId": 2514501,
+      "toponymName": "Los Quiñones",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Los Quiñones",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "locality",
+      "adminName1": "Valencia",
+      "lat": "39.75",
+      "fcode": "LCTY"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-1.2",
+      "geonameId": 2515134,
+      "toponymName": "La Vegana",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "La Vegana",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "locality",
+      "adminName1": "Valencia",
+      "lat": "39.61667",
+      "fcode": "LCTY"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-1.2",
+      "geonameId": 2515256,
+      "toponymName": "Las Pinadas",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Las Pinadas",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "locality",
+      "adminName1": "Valencia",
+      "lat": "39.8",
+      "fcode": "LCTY"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-1.2",
+      "geonameId": 2515371,
+      "toponymName": "Las Herradas",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Las Herradas",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "locality",
+      "adminName1": "Valencia",
+      "lat": "39.7",
+      "fcode": "LCTY"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-1.26667",
+      "geonameId": 2515384,
+      "toponymName": "Las Fuentezuelas",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Las Fuentezuelas",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "locality",
+      "adminName1": "Valencia",
+      "lat": "39.6",
+      "fcode": "LCTY"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-1.26667",
+      "geonameId": 2515527,
+      "toponymName": "Las Aliaguillas",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Las Aliaguillas",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "locality",
+      "adminName1": "Valencia",
+      "lat": "39.65",
+      "fcode": "LCTY"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-1.2",
+      "geonameId": 2515561,
+      "toponymName": "La Risca",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "La Risca",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "locality",
+      "adminName1": "Valencia",
+      "lat": "39.63333",
+      "fcode": "LCTY"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-1.33333",
+      "geonameId": 2515732,
+      "toponymName": "La Mulata",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "La Mulata",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "locality",
+      "adminName1": "Valencia",
+      "lat": "39.55",
+      "fcode": "LCTY"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-1.41667",
+      "geonameId": 2515756,
+      "toponymName": "La Mojonera",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "La Mojonera",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "locality",
+      "adminName1": "Valencia",
+      "lat": "39.63333",
+      "fcode": "LCTY"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-1.2",
+      "geonameId": 2516151,
+      "toponymName": "La Buitrera",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "La Buitrera",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "locality",
+      "adminName1": "Valencia",
+      "lat": "39.55",
+      "fcode": "LCTY"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-1.28333",
+      "geonameId": 2516190,
+      "toponymName": "La Atalaya",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "La Atalaya",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "locality",
+      "adminName1": "Valencia",
+      "lat": "39.55",
+      "fcode": "LCTY"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-1.4",
+      "geonameId": 2512310,
+      "toponymName": "Pozo Seco",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Pozo Seco",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "locality",
+      "adminName1": "Valencia",
+      "lat": "39.58333",
+      "fcode": "LCTY"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.44421",
+      "geonameId": 10297433,
+      "toponymName": "Parque Arabia Saudí",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Parque Arabia Saudí",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "park",
+      "adminName1": "Valencia",
+      "lat": "39.1525",
+      "fcode": "PRK"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.4288",
+      "geonameId": 10300326,
+      "toponymName": "Parc Bernat Guinovart",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Parc Bernat Guinovart",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "park",
+      "adminName1": "Valencia",
+      "lat": "39.19232",
+      "fcode": "PRK"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.46101",
+      "geonameId": 10300444,
+      "toponymName": "Parc de la Sequieta",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Parc de la Sequieta",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "park",
+      "adminName1": "Valencia",
+      "lat": "39.45365",
+      "fcode": "PRK"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.22299",
+      "geonameId": 10300450,
+      "toponymName": "Parc del Llac",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Parc del Llac",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "park",
+      "adminName1": "Valencia",
+      "lat": "39.10287",
+      "fcode": "PRK"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.41204",
+      "geonameId": 10343350,
+      "toponymName": "Municipal La Granja Park",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Municipal La Granja Park",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "park",
+      "adminName1": "Valencia",
+      "lat": "39.5069",
+      "fcode": "PRK"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.41523",
+      "geonameId": 10345518,
+      "toponymName": "Parque de la Canaleta",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Parque de la Canaleta",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "park",
+      "adminName1": "Valencia",
+      "lat": "39.48169",
+      "fcode": "PRK"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.53348",
+      "geonameId": 10342211,
+      "toponymName": "Karting La Pobla",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Karting La Pobla",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "amusement park",
+      "adminName1": "Valencia",
+      "lat": "39.58888",
+      "fcode": "AMUS"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.17914",
+      "geonameId": 10342724,
+      "toponymName": "Estación Park",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Estación Park",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "park",
+      "adminName1": "Valencia",
+      "lat": "38.97042",
+      "fcode": "PRK"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.25539",
+      "geonameId": 10342948,
+      "toponymName": "Aquópolis Cullera",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Aquópolis Cullera",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "amusement park",
+      "adminName1": "Valencia",
+      "lat": "39.18666",
+      "fcode": "AMUS"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.41424",
+      "geonameId": 11994011,
+      "toponymName": "Parc de l'estació",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Parc de l'estació",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "park",
+      "adminName1": "Valencia",
+      "lat": "39.36232",
+      "fcode": "PRK"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.39001",
+      "geonameId": 11994015,
+      "toponymName": "Port de Silla",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Port de Silla",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "port",
+      "adminName1": "Valencia",
+      "lat": "39.36117",
+      "fcode": "PRT"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.30473",
+      "geonameId": 11994027,
+      "toponymName": "Josep Ribelles Park",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Josep Ribelles Park",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "park",
+      "adminName1": "Valencia",
+      "lat": "39.62128",
+      "fcode": "PRK"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.553",
+      "geonameId": 11994137,
+      "toponymName": "Parque Municipal La Pobla de Vallbona",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Parque Municipal La Pobla de Vallbona",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "park",
+      "adminName1": "Valencia",
+      "lat": "39.59041",
+      "fcode": "PRK"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.55965",
+      "geonameId": 11994139,
+      "toponymName": "Parque Rotonda Guillermo Roch",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Parque Rotonda Guillermo Roch",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "park",
+      "adminName1": "Valencia",
+      "lat": "39.59781",
+      "fcode": "PRK"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.5964",
+      "geonameId": 11994144,
+      "toponymName": "Parque de la Bombilla",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Parque de la Bombilla",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "park",
+      "adminName1": "Valencia",
+      "lat": "39.63101",
+      "fcode": "PRK"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.58036",
+      "geonameId": 11994146,
+      "toponymName": "Parque Ferroviario Vaporista Ribaroja",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Parque Ferroviario Vaporista Ribaroja",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "park",
+      "adminName1": "Valencia",
+      "lat": "39.54807",
+      "fcode": "PRK"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.57895",
+      "geonameId": 11994147,
+      "toponymName": "Parque Maldonado",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Parque Maldonado",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "park",
+      "adminName1": "Valencia",
+      "lat": "39.54778",
+      "fcode": "PRK"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.56175",
+      "geonameId": 11994149,
+      "toponymName": "Parque Fluvial Del Turia",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Parque Fluvial Del Turia",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "park",
+      "adminName1": "Valencia",
+      "lat": "39.54903",
+      "fcode": "PRK"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.39724",
+      "geonameId": 11994185,
+      "toponymName": "La xapa",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "La xapa",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "park",
+      "adminName1": "Valencia",
+      "lat": "39.42254",
+      "fcode": "PRK"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.39252",
+      "geonameId": 11994187,
+      "toponymName": "Parque De Las Palmeras Alfafar",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Parque De Las Palmeras Alfafar",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "park",
+      "adminName1": "Valencia",
+      "lat": "39.42144",
+      "fcode": "PRK"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.44817",
+      "geonameId": 11994262,
+      "toponymName": "Parc Navarro Daras",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Parc Navarro Daras",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "park",
+      "adminName1": "Valencia",
+      "lat": "39.1185",
+      "fcode": "PRK"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.5946",
+      "geonameId": 11994365,
+      "toponymName": "Mura Park",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Mura Park",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "park",
+      "adminName1": "Valencia",
+      "lat": "39.6287",
+      "fcode": "PRK"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.40418",
+      "geonameId": 11994575,
+      "toponymName": "Parque Jocs Popular",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Parque Jocs Popular",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "park",
+      "adminName1": "Valencia",
+      "lat": "39.40862",
+      "fcode": "PRK"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.40189",
+      "geonameId": 11994576,
+      "toponymName": "Parque De Los Patos",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Parque De Los Patos",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "park",
+      "adminName1": "Valencia",
+      "lat": "39.39651",
+      "fcode": "PRK"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.46722",
+      "geonameId": 11994791,
+      "toponymName": "Parc Corts Valencianes",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Parc Corts Valencianes",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "park",
+      "adminName1": "Valencia",
+      "lat": "39.45912",
+      "fcode": "PRK"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.41973",
+      "geonameId": 11994810,
+      "toponymName": "Pablo Iglesias",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Pablo Iglesias",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "park",
+      "adminName1": "Valencia",
+      "lat": "39.46221",
+      "fcode": "PRK"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.40958",
+      "geonameId": 11995300,
+      "toponymName": "Parc L'Eixereta",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Parc L'Eixereta",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "park",
+      "adminName1": "Valencia",
+      "lat": "39.51288",
+      "fcode": "PRK"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.32956",
+      "geonameId": 11995587,
+      "toponymName": "Parc Ausiàs March",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Parc Ausiàs March",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "park",
+      "adminName1": "Valencia",
+      "lat": "39.58521",
+      "fcode": "PRK"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.21459",
+      "geonameId": 11979403,
+      "toponymName": "Port de Sagunt",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Port de Sagunt",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "port",
+      "adminName1": "Valencia",
+      "lat": "39.64577",
+      "fcode": "PRT"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.22921",
+      "geonameId": 11979410,
+      "toponymName": "Triángulo Umbral",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Triángulo Umbral",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "park",
+      "adminName1": "Valencia",
+      "lat": "39.66408",
+      "fcode": "PRK"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.20655",
+      "geonameId": 11979418,
+      "toponymName": "Parque Blasco Ibañez",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Parque Blasco Ibañez",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "park",
+      "adminName1": "Valencia",
+      "lat": "39.68434",
+      "fcode": "PRK"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.3501",
+      "geonameId": 6325514,
+      "toponymName": "Cuidad de las Artes y de las Ciencias",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Cuidad de las Artes y de las Ciencias",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "area",
+      "adminName1": "Valencia",
+      "lat": "39.45429",
+      "fcode": "AREA"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.16757",
+      "geonameId": 10281099,
+      "toponymName": "Gandilandia - Parque de Atracciones",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Gandilandia - Parque de Atracciones",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "amusement park",
+      "adminName1": "Valencia",
+      "lat": "39.00235",
+      "fcode": "AMUS"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.43337",
+      "geonameId": 10341742,
+      "toponymName": "Parc Poliesportiu Municipal",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Parc Poliesportiu Municipal",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "park",
+      "adminName1": "Valencia",
+      "lat": "39.48064",
+      "fcode": "PRK"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.11082",
+      "geonameId": 11994659,
+      "toponymName": "Parc Public Hort De La Bosca",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Parc Public Hort De La Bosca",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "park",
+      "adminName1": "Valencia",
+      "lat": "38.92174",
+      "fcode": "PRK"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-2.03333",
+      "geonameId": 2520900,
+      "toponymName": "Boca de la Hoz",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Boca de la Hoz",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "locality",
+      "adminName1": "Valencia",
+      "lat": "39.48333",
+      "fcode": "LCTY"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-1.53333",
+      "geonameId": 2511845,
+      "toponymName": "Rincón del Santo Cristo",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Rincón del Santo Cristo",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "locality",
+      "adminName1": "Valencia",
+      "lat": "39.36667",
+      "fcode": "LCTY"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.28309",
+      "geonameId": 11279507,
+      "toponymName": "Puerto Puebla de Farnals",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Puerto Puebla de Farnals",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "port",
+      "adminName1": "Valencia",
+      "lat": "39.56222",
+      "fcode": "PRT"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.5204",
+      "geonameId": 6697295,
+      "toponymName": "Clot de Galvany",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Clot de Galvany",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "park",
+      "adminName1": "Valencia",
+      "lat": "38.23992",
+      "fcode": "PRK"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.16667",
+      "geonameId": 3123436,
+      "toponymName": "El Maestrazgo",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "El Maestrazgo",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "locality",
+      "adminName1": "Valencia",
+      "lat": "40.33333",
+      "fcode": "LCTY"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "0.36457",
+      "geonameId": 3124511,
+      "toponymName": "Corral Viejo",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Corral Viejo",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "locality",
+      "adminName1": "Valencia",
+      "lat": "40.597",
+      "fcode": "LCTY"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "0.30942",
+      "geonameId": 3113056,
+      "toponymName": "Pou Panés",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Pou Panés",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "locality",
+      "adminName1": "Valencia",
+      "lat": "40.54725",
+      "fcode": "LCTY"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.50765",
+      "geonameId": 6255102,
+      "toponymName": "Base Militar de Rabasa",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Base Militar de Rabasa",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "military base",
+      "adminName1": "Valencia",
+      "lat": "38.36929",
+      "fcode": "MILB"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.49089",
+      "geonameId": 6255103,
+      "toponymName": "Parque Lo Morant",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Parque Lo Morant",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "park",
+      "adminName1": "Valencia",
+      "lat": "38.36972",
+      "fcode": "PRK"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.50318",
+      "geonameId": 6255104,
+      "toponymName": "Polígono Industrial de Rabasa",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Polígono Industrial de Rabasa",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "industrial area",
+      "adminName1": "Valencia",
+      "lat": "38.37497",
+      "fcode": "INDS"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.54048",
+      "geonameId": 6255105,
+      "toponymName": "Polígono Industrial El Canastell",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Polígono Industrial El Canastell",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "industrial area",
+      "adminName1": "Valencia",
+      "lat": "38.40326",
+      "fcode": "INDS"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.51207",
+      "geonameId": 6255106,
+      "toponymName": "Parqeu Lo Torrent",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Parqeu Lo Torrent",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "park",
+      "adminName1": "Valencia",
+      "lat": "38.39411",
+      "fcode": "PRK"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.52481",
+      "geonameId": 6255108,
+      "toponymName": "Polígono Industrial Llano del Espartal",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Polígono Industrial Llano del Espartal",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "industrial area",
+      "adminName1": "Valencia",
+      "lat": "38.34485",
+      "fcode": "INDS"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.55219",
+      "geonameId": 6255109,
+      "toponymName": "Polígono Industrial Plá de la Vallonga",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Polígono Industrial Plá de la Vallonga",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "industrial area",
+      "adminName1": "Valencia",
+      "lat": "38.34946",
+      "fcode": "INDS"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.56623",
+      "geonameId": 6255110,
+      "toponymName": "Polígono Industrial Las Atalayas",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Polígono Industrial Las Atalayas",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "industrial area",
+      "adminName1": "Valencia",
+      "lat": "38.33974",
+      "fcode": "INDS"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.53391",
+      "geonameId": 6255111,
+      "toponymName": "Depósitos de C.H.L.",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Depósitos de C.H.L.",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "industrial area",
+      "adminName1": "Valencia",
+      "lat": "38.32004",
+      "fcode": "INDS"
+    }
+  ]
+}

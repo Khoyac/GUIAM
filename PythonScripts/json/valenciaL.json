@@ -1,0 +1,2002 @@
+{
+  "totalResultsCount": 6120,
+  "geonames": [
+    {
+      "adminCode1": "60",
+      "lng": "-0.37739",
+      "geonameId": 2509954,
+      "toponymName": "Valencia",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 814208,
+      "countryCode": "ES",
+      "name": "Valencia",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "seat of a first-order administrative division",
+      "adminName1": "Valencia",
+      "lat": "39.46975",
+      "fcode": "PPLA"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.70107",
+      "geonameId": 2518559,
+      "toponymName": "Elche",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 230112,
+      "countryCode": "ES",
+      "name": "Elche",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "seat of a third-order administrative division",
+      "adminName1": "Valencia",
+      "lat": "38.26218",
+      "fcode": "PPLA3"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.48149",
+      "geonameId": 2521978,
+      "toponymName": "Alicante",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 334757,
+      "countryCode": "ES",
+      "name": "Alicante",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "seat of a second-order administrative division",
+      "adminName1": "Valencia",
+      "lat": "38.34517",
+      "fcode": "PPLA2"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.68222",
+      "geonameId": 2510253,
+      "toponymName": "Torrevieja",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 101792,
+      "countryCode": "ES",
+      "name": "Torrevieja",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "seat of a third-order administrative division",
+      "adminName1": "Valencia",
+      "lat": "37.97872",
+      "fcode": "PPLA3"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.04935",
+      "geonameId": 2519752,
+      "toponymName": "Castelló de la Plana",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 180005,
+      "countryCode": "ES",
+      "name": "Castelló de la Plana",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "seat of a second-order administrative division",
+      "adminName1": "Valencia",
+      "lat": "39.98567",
+      "fcode": "PPLA2"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.18333",
+      "geonameId": 2517367,
+      "toponymName": "Gandia",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 80020,
+      "countryCode": "ES",
+      "name": "Gandía",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "seat of a third-order administrative division",
+      "adminName1": "Valencia",
+      "lat": "38.96667",
+      "fcode": "PPLA3"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.75",
+      "geonameId": 2593113,
+      "toponymName": "Comunitat Valenciana",
+      "countryId": "2510769",
+      "fcl": "A",
+      "population": 5094675,
+      "countryCode": "ES",
+      "name": "Valencia",
+      "fclName": "country, state, region,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "first-order administrative division",
+      "adminName1": "Valencia",
+      "lat": "39.5",
+      "fcode": "ADM1"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.13098",
+      "geonameId": 2521088,
+      "toponymName": "Benidorm",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 71034,
+      "countryCode": "ES",
+      "name": "Benidorm",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "seat of a third-order administrative division",
+      "adminName1": "Valencia",
+      "lat": "38.53816",
+      "fcode": "PPLA3"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.47432",
+      "geonameId": 2522098,
+      "toponymName": "Alcoy",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 61552,
+      "countryCode": "ES",
+      "name": "Alcoy",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "seat of a third-order administrative division",
+      "adminName1": "Valencia",
+      "lat": "38.70545",
+      "fcode": "PPLA3"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.26667",
+      "geonameId": 2511619,
+      "toponymName": "Sagunto",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 66070,
+      "countryCode": "ES",
+      "name": "Sagunto",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "populated place",
+      "adminName1": "Valencia",
+      "lat": "39.68333",
+      "fcode": "PPL"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.94401",
+      "geonameId": 2513076,
+      "toponymName": "Orihuela",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 86164,
+      "countryCode": "ES",
+      "name": "Orihuela",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "seat of a third-order administrative division",
+      "adminName1": "Valencia",
+      "lat": "38.08483",
+      "fcode": "PPLA3"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.43333",
+      "geonameId": 2522129,
+      "toponymName": "Alzira",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 44690,
+      "countryCode": "ES",
+      "name": "Alcira",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "seat of a third-order administrative division",
+      "adminName1": "Valencia",
+      "lat": "39.15",
+      "fcode": "PPLA3"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.48163",
+      "geonameId": 6299357,
+      "toponymName": "Valencia Airport",
+      "countryId": "2510769",
+      "fcl": "S",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Aeropuerto de Valencia",
+      "fclName": "spot, building, farm",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "airport",
+      "adminName1": "Valencia",
+      "lat": "39.48931",
+      "fcode": "AIRP"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.80975",
+      "geonameId": 2519110,
+      "toponymName": "Crevillente",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 28957,
+      "countryCode": "ES",
+      "name": "Crevillente",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "populated place",
+      "adminName1": "Valencia",
+      "lat": "38.24994",
+      "fcode": "PPL"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.5255",
+      "geonameId": 2511032,
+      "toponymName": "San Vicent del Raspeig",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 56715,
+      "countryCode": "ES",
+      "name": "San Vicente",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "populated place",
+      "adminName1": "Valencia",
+      "lat": "38.3964",
+      "fcode": "PPL"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.79157",
+      "geonameId": 2518505,
+      "toponymName": "Elda",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 55168,
+      "countryCode": "ES",
+      "name": "Elda",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "seat of a third-order administrative division",
+      "adminName1": "Valencia",
+      "lat": "38.47783",
+      "fcode": "PPLA3"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "0.0445",
+      "geonameId": 2520496,
+      "toponymName": "Calp",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 23326,
+      "countryCode": "ES",
+      "name": "Calpe",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "populated place",
+      "adminName1": "Valencia",
+      "lat": "38.6447",
+      "fcode": "PPL"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.10087",
+      "geonameId": 2509509,
+      "toponymName": "Vila-real",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 50577,
+      "countryCode": "ES",
+      "name": "Villarreal",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "populated place",
+      "adminName1": "Valencia",
+      "lat": "39.9383",
+      "fcode": "PPL"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.461",
+      "geonameId": 2522297,
+      "toponymName": "Alaquàs",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 30392,
+      "countryCode": "ES",
+      "name": "Alacuás",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "seat of a third-order administrative division",
+      "adminName1": "Valencia",
+      "lat": "39.45568",
+      "fcode": "PPLA3"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.51852",
+      "geonameId": 2516345,
+      "toponymName": "Xàtiva",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 29386,
+      "countryCode": "ES",
+      "name": "Játiva",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "seat of a third-order administrative division",
+      "adminName1": "Valencia",
+      "lat": "38.99042",
+      "fcode": "PPLA3"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.46546",
+      "geonameId": 2510279,
+      "toponymName": "Torrent",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 78543,
+      "countryCode": "ES",
+      "name": "Torrente",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "seat of a third-order administrative division",
+      "adminName1": "Valencia",
+      "lat": "39.43705",
+      "fcode": "PPLA3"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.44079",
+      "geonameId": 2512862,
+      "toponymName": "Paterna",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 64023,
+      "countryCode": "ES",
+      "name": "Paterna",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "seat of a third-order administrative division",
+      "adminName1": "Valencia",
+      "lat": "39.50263",
+      "fcode": "PPLA3"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.33333",
+      "geonameId": 2511875,
+      "toponymName": "Ribera Baixa",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Ribera Baixa",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "region",
+      "adminName1": "Valencia",
+      "lat": "39.25",
+      "fcode": "RGN"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.42589",
+      "geonameId": 2519466,
+      "toponymName": "Xirivella",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 30002,
+      "countryCode": "ES",
+      "name": "Xirivella",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "populated place",
+      "adminName1": "Valencia",
+      "lat": "39.46588",
+      "fcode": "PPL"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.78333",
+      "geonameId": 2520726,
+      "toponymName": "Buñol",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 9517,
+      "countryCode": "ES",
+      "name": "Buñol",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "populated place",
+      "adminName1": "Valencia",
+      "lat": "39.41667",
+      "fcode": "PPL"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.43572",
+      "geonameId": 2522012,
+      "toponymName": "Algemesí",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 28308,
+      "countryCode": "ES",
+      "name": "Algemesí",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "seat of a third-order administrative division",
+      "adminName1": "Valencia",
+      "lat": "39.19042",
+      "fcode": "PPLA3"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.46005",
+      "geonameId": 2522077,
+      "toponymName": "Aldaia",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 29914,
+      "countryCode": "ES",
+      "name": "Aldaya",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "seat of a third-order administrative division",
+      "adminName1": "Valencia",
+      "lat": "39.46569",
+      "fcode": "PPLA3"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.35",
+      "geonameId": 2522203,
+      "toponymName": "Alboraya",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 22405,
+      "countryCode": "ES",
+      "name": "Alboraya",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "seat of a third-order administrative division",
+      "adminName1": "Valencia",
+      "lat": "39.5",
+      "fcode": "PPLA3"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-1.2",
+      "geonameId": 2510075,
+      "toponymName": "Utiel",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 12420,
+      "countryCode": "ES",
+      "name": "Utiel",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "seat of a third-order administrative division",
+      "adminName1": "Valencia",
+      "lat": "39.56667",
+      "fcode": "PPLA3"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-1.10044",
+      "geonameId": 2511930,
+      "toponymName": "Requena",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 21278,
+      "countryCode": "ES",
+      "name": "Requena",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "seat of a third-order administrative division",
+      "adminName1": "Valencia",
+      "lat": "39.48834",
+      "fcode": "PPLA3"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.41825",
+      "geonameId": 2513811,
+      "toponymName": "Mislata",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 43756,
+      "countryCode": "ES",
+      "name": "Mislata",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "seat of a third-order administrative division",
+      "adminName1": "Valencia",
+      "lat": "39.47523",
+      "fcode": "PPLA3"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.84042",
+      "geonameId": 2521395,
+      "toponymName": "Bajo Segura",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Bajo Segura",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "region",
+      "adminName1": "Valencia",
+      "lat": "38.06693",
+      "fcode": "RGN"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "0.10574",
+      "geonameId": 2518878,
+      "toponymName": "Denia",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 41733,
+      "countryCode": "ES",
+      "name": "Denia",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "populated place",
+      "adminName1": "Valencia",
+      "lat": "38.84078",
+      "fcode": "PPL"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.39774",
+      "geonameId": 2520447,
+      "toponymName": "El Campello",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 27893,
+      "countryCode": "ES",
+      "name": "Campello",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "populated place",
+      "adminName1": "Valencia",
+      "lat": "38.42885",
+      "fcode": "PPL"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.76721",
+      "geonameId": 2521510,
+      "toponymName": "Aspe",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 20180,
+      "countryCode": "ES",
+      "name": "Aspe",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "seat of a third-order administrative division",
+      "adminName1": "Valencia",
+      "lat": "38.34511",
+      "fcode": "PPLA3"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.79197",
+      "geonameId": 2521855,
+      "toponymName": "Almoradí",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 20542,
+      "countryCode": "ES",
+      "name": "Almoradí",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "populated place",
+      "adminName1": "Valencia",
+      "lat": "38.10879",
+      "fcode": "PPL"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "0.16667",
+      "geonameId": 2516336,
+      "toponymName": "Javea",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 28016,
+      "countryCode": "ES",
+      "name": "Jávea",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "populated place",
+      "adminName1": "Valencia",
+      "lat": "38.78333",
+      "fcode": "PPL"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-1.04196",
+      "geonameId": 2512510,
+      "toponymName": "Pinoso",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 7845,
+      "countryCode": "ES",
+      "name": "Pinoso",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "populated place",
+      "adminName1": "Valencia",
+      "lat": "38.40164",
+      "fcode": "PPL"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.84062",
+      "geonameId": 2513680,
+      "toponymName": "Monóvar",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 12175,
+      "countryCode": "ES",
+      "name": "Monóvar",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "populated place",
+      "adminName1": "Valencia",
+      "lat": "38.43809",
+      "fcode": "PPL"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.83333",
+      "geonameId": 2509951,
+      "toponymName": "Província de València",
+      "countryId": "2510769",
+      "fcl": "A",
+      "population": 2575362,
+      "countryCode": "ES",
+      "name": "Valencia",
+      "fclName": "country, state, region,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "second-order administrative division",
+      "adminName1": "Valencia",
+      "lat": "39.33333",
+      "fcode": "ADM2"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.43976",
+      "geonameId": 2519382,
+      "toponymName": "Cocentaina",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 11467,
+      "countryCode": "ES",
+      "name": "Cocentaina",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "seat of a third-order administrative division",
+      "adminName1": "Valencia",
+      "lat": "38.73975",
+      "fcode": "PPLA3"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.08499",
+      "geonameId": 2520709,
+      "toponymName": "Burriana",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 34565,
+      "countryCode": "ES",
+      "name": "Burriana",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "seat of a third-order administrative division",
+      "adminName1": "Valencia",
+      "lat": "39.88901",
+      "fcode": "PPLA3"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.06313",
+      "geonameId": 2521909,
+      "toponymName": "Almassora",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 25831,
+      "countryCode": "ES",
+      "name": "Almazora",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "populated place",
+      "adminName1": "Valencia",
+      "lat": "39.94729",
+      "fcode": "PPL"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.74501",
+      "geonameId": 2514593,
+      "toponymName": "Los Montesinos",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 4844,
+      "countryCode": "ES",
+      "name": "Los Montesinos",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "populated place",
+      "adminName1": "Valencia",
+      "lat": "38.02822",
+      "fcode": "PPL"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.01129",
+      "geonameId": 2516389,
+      "toponymName": "Jalón",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 2683,
+      "countryCode": "ES",
+      "name": "Jalón",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "populated place",
+      "adminName1": "Valencia",
+      "lat": "38.74063",
+      "fcode": "PPL"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.57225",
+      "geonameId": 2516480,
+      "toponymName": "Ibi",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 24113,
+      "countryCode": "ES",
+      "name": "Ibi",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "seat of a third-order administrative division",
+      "adminName1": "Valencia",
+      "lat": "38.62533",
+      "fcode": "PPLA3"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.86568",
+      "geonameId": 2509463,
+      "toponymName": "Villena",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 35222,
+      "countryCode": "ES",
+      "name": "Villena",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "seat of a third-order administrative division",
+      "adminName1": "Valencia",
+      "lat": "38.6373",
+      "fcode": "PPLA3"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.5658",
+      "geonameId": 2511102,
+      "toponymName": "Santa Pola",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 31760,
+      "countryCode": "ES",
+      "name": "Santa Pola",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "seat of a third-order administrative division",
+      "adminName1": "Valencia",
+      "lat": "38.19165",
+      "fcode": "PPLA3"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.1309",
+      "geonameId": 2512427,
+      "toponymName": "Polop",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 3354,
+      "countryCode": "ES",
+      "name": "Polop",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "populated place",
+      "adminName1": "Valencia",
+      "lat": "38.62258",
+      "fcode": "PPL"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.26041",
+      "geonameId": 2513115,
+      "toponymName": "Onda",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 25691,
+      "countryCode": "ES",
+      "name": "Onda",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "seat of a third-order administrative division",
+      "adminName1": "Valencia",
+      "lat": "39.96495",
+      "fcode": "PPLA3"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.43608",
+      "geonameId": 2513403,
+      "toponymName": "Muro del Alcoy",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 7983,
+      "countryCode": "ES",
+      "name": "Muro de Alcoy",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "populated place",
+      "adminName1": "Valencia",
+      "lat": "38.7812",
+      "fcode": "PPL"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "0.03333",
+      "geonameId": 3130637,
+      "toponymName": "Albocàsser",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 1234,
+      "countryCode": "ES",
+      "name": "Albocacer",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "populated place",
+      "adminName1": "Valencia",
+      "lat": "40.35",
+      "fcode": "PPL"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "0.40692",
+      "geonameId": 3113860,
+      "toponymName": "Peníscola",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 7447,
+      "countryCode": "ES",
+      "name": "Peñíscola",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "populated place",
+      "adminName1": "Valencia",
+      "lat": "40.3574",
+      "fcode": "PPL"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "0.42709",
+      "geonameId": 3128273,
+      "toponymName": "Benicarló",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 26655,
+      "countryCode": "ES",
+      "name": "Benicarló",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "seat of a third-order administrative division",
+      "adminName1": "Valencia",
+      "lat": "40.4165",
+      "fcode": "PPLA3"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.55816",
+      "geonameId": 6255112,
+      "toponymName": "Alicante–Elche Airport",
+      "countryId": "2510769",
+      "fcl": "S",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Aeropuerto de Alicante-Elche",
+      "fclName": "spot, building, farm",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "airport",
+      "adminName1": "Valencia",
+      "lat": "38.28217",
+      "fcode": "AIRP"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "0.06972",
+      "geonameId": 8260997,
+      "toponymName": "Castellón–Costa Azahar Airport",
+      "countryId": "2510769",
+      "fcl": "S",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Aeropuerto de Castellón-Costa Azahar",
+      "fclName": "spot, building, farm",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "airport",
+      "adminName1": "Valencia",
+      "lat": "40.2097",
+      "fcode": "AIRP"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.31714",
+      "geonameId": 8593878,
+      "toponymName": "Puerto de Valencia",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Puerto de Valencia",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "port",
+      "adminName1": "Valencia",
+      "lat": "39.44189",
+      "fcode": "PRT"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.40748",
+      "geonameId": 7870130,
+      "toponymName": "Bioparc Valencia",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Bioparc Valencia",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "amusement park",
+      "adminName1": "Valencia",
+      "lat": "39.47784",
+      "fcode": "AMUS"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.25",
+      "geonameId": 2518949,
+      "toponymName": "Cullera",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 24121,
+      "countryCode": "ES",
+      "name": "Cullera",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "seat of a third-order administrative division",
+      "adminName1": "Valencia",
+      "lat": "39.16667",
+      "fcode": "PPLA3"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.71667",
+      "geonameId": 2519464,
+      "toponymName": "Chiva",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 14167,
+      "countryCode": "ES",
+      "name": "Chiva",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "seat of a third-order administrative division",
+      "adminName1": "Valencia",
+      "lat": "39.46667",
+      "fcode": "PPLA3"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.4",
+      "geonameId": 2519690,
+      "toponymName": "Catarroja",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 27035,
+      "countryCode": "ES",
+      "name": "Catarroja",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "seat of a third-order administrative division",
+      "adminName1": "Valencia",
+      "lat": "39.4",
+      "fcode": "PPLA3"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.52142",
+      "geonameId": 2520121,
+      "toponymName": "Carlet",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 15527,
+      "countryCode": "ES",
+      "name": "Carlet",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "seat of a third-order administrative division",
+      "adminName1": "Valencia",
+      "lat": "39.2266",
+      "fcode": "PPLA3"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.44812",
+      "geonameId": 2520150,
+      "toponymName": "Carcaixent",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 21735,
+      "countryCode": "ES",
+      "name": "Carcagente",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "seat of a third-order administrative division",
+      "adminName1": "Valencia",
+      "lat": "39.1218",
+      "fcode": "PPLA3"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.41327",
+      "geonameId": 2520712,
+      "toponymName": "Burjassot",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 38433,
+      "countryCode": "ES",
+      "name": "Burjassot",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "seat of a third-order administrative division",
+      "adminName1": "Valencia",
+      "lat": "39.50984",
+      "fcode": "PPLA3"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.67466",
+      "geonameId": 2520874,
+      "toponymName": "Bolbaite",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 1347,
+      "countryCode": "ES",
+      "name": "Bolbaite",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "populated place",
+      "adminName1": "Valencia",
+      "lat": "39.06041",
+      "fcode": "PPL"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.52679",
+      "geonameId": 2521060,
+      "toponymName": "Benimodo",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 2019,
+      "countryCode": "ES",
+      "name": "Benimodo",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "populated place",
+      "adminName1": "Valencia",
+      "lat": "39.21403",
+      "fcode": "PPL"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-1.05635",
+      "geonameId": 2521451,
+      "toponymName": "Ayora",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 5508,
+      "countryCode": "ES",
+      "name": "Ayora",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "populated place",
+      "adminName1": "Valencia",
+      "lat": "39.05852",
+      "fcode": "PPL"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.55",
+      "geonameId": 2522047,
+      "toponymName": "Alfarp",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 1369,
+      "countryCode": "ES",
+      "name": "Alfarp",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "seat of a third-order administrative division",
+      "adminName1": "Valencia",
+      "lat": "39.28333",
+      "fcode": "PPLA3"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.38333",
+      "geonameId": 2522057,
+      "toponymName": "Alfafar",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 20853,
+      "countryCode": "ES",
+      "name": "Alfafar",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "seat of a third-order administrative division",
+      "adminName1": "Valencia",
+      "lat": "39.41667",
+      "fcode": "PPLA3"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.46349",
+      "geonameId": 2514197,
+      "toponymName": "Manises",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 30508,
+      "countryCode": "ES",
+      "name": "Manises",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "seat of a third-order administrative division",
+      "adminName1": "Valencia",
+      "lat": "39.49139",
+      "fcode": "PPLA3"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.59783",
+      "geonameId": 2515036,
+      "toponymName": "Llíria",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 22972,
+      "countryCode": "ES",
+      "name": "Liria",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "populated place",
+      "adminName1": "Valencia",
+      "lat": "39.62894",
+      "fcode": "PPL"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.31114",
+      "geonameId": 2510764,
+      "toponymName": "Sueca",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 28908,
+      "countryCode": "ES",
+      "name": "Sueca",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "seat of a third-order administrative division",
+      "adminName1": "Valencia",
+      "lat": "39.2026",
+      "fcode": "PPLA3"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.55468",
+      "geonameId": 2512251,
+      "toponymName": "La Pobla de Vallbona",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 20431,
+      "countryCode": "ES",
+      "name": "Puebla de Vallbona",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "populated place",
+      "adminName1": "Valencia",
+      "lat": "39.59747",
+      "fcode": "PPL"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.60603",
+      "geonameId": 2513106,
+      "toponymName": "Ontinyent",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 37735,
+      "countryCode": "ES",
+      "name": "Onteniente",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "seat of a third-order administrative division",
+      "adminName1": "Valencia",
+      "lat": "38.82191",
+      "fcode": "PPLA3"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.11935",
+      "geonameId": 2513145,
+      "toponymName": "Oliva",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 28419,
+      "countryCode": "ES",
+      "name": "Oliva",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "seat of a third-order administrative division",
+      "adminName1": "Valencia",
+      "lat": "38.91971",
+      "fcode": "PPLA3"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.6",
+      "geonameId": 2513674,
+      "toponymName": "Monserrat",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 7583,
+      "countryCode": "ES",
+      "name": "Monserrat",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "populated place",
+      "adminName1": "Valencia",
+      "lat": "39.36667",
+      "fcode": "PPL"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.79256",
+      "geonameId": 2512581,
+      "toponymName": "Pilar de la Horadada",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 22050,
+      "countryCode": "ES",
+      "name": "Pilar de la Horadada",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "seat of a third-order administrative division",
+      "adminName1": "Valencia",
+      "lat": "37.86591",
+      "fcode": "PPLA3"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.7285",
+      "geonameId": 2513691,
+      "toponymName": "Monforte del Cid",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 6001,
+      "countryCode": "ES",
+      "name": "Monforte del Cid",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "seat of a third-order administrative division",
+      "adminName1": "Valencia",
+      "lat": "38.38027",
+      "fcode": "PPLA3"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "0.02618",
+      "geonameId": 8435668,
+      "toponymName": "Castellón de la Plana Airport",
+      "countryId": "2510769",
+      "fcl": "S",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Castellón de la Plana Airport",
+      "fclName": "spot, building, farm",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "airport",
+      "adminName1": "Valencia",
+      "lat": "39.99902",
+      "fcode": "AIRP"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.36946",
+      "geonameId": 11876196,
+      "toponymName": "Glorieta",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "la Glorieta",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "park",
+      "adminName1": "Valencia",
+      "lat": "39.47279",
+      "fcode": "PRK"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.41667",
+      "geonameId": 2521066,
+      "toponymName": "Benimamet",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Benimamet",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "populated place",
+      "adminName1": "Valencia",
+      "lat": "39.5",
+      "fcode": "PPL"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.36667",
+      "geonameId": 2510744,
+      "toponymName": "Tavernes Blanques",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 9033,
+      "countryCode": "ES",
+      "name": "Tabernes Blanques",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "seat of a third-order administrative division",
+      "adminName1": "Valencia",
+      "lat": "39.5",
+      "fcode": "PPLA3"
+    },
+    {
+      "adminCode1": "00",
+      "lng": "-0.66667",
+      "geonameId": 2509953,
+      "toponymName": "Valencia",
+      "countryId": "2510769",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Valencia",
+      "fclName": "parks,area, ...",
+      "countryName": "España",
+      "fcodeName": "region",
+      "adminName1": "",
+      "lat": "39.5",
+      "fcode": "RGN"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.23333",
+      "geonameId": 2517846,
+      "toponymName": "Estación de Los Valles",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Estación de Los Valles",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "populated place",
+      "adminName1": "Valencia",
+      "lat": "39.71667",
+      "fcode": "PPL"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.68683",
+      "geonameId": 2518011,
+      "toponymName": "Enguera",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 5484,
+      "countryCode": "ES",
+      "name": "Enguera",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "seat of a third-order administrative division",
+      "adminName1": "Valencia",
+      "lat": "38.97974",
+      "fcode": "PPLA3"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.26458",
+      "geonameId": 2519066,
+      "toponymName": "Quartell",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 1395,
+      "countryCode": "ES",
+      "name": "Cuartell",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "populated place",
+      "adminName1": "Valencia",
+      "lat": "39.73751",
+      "fcode": "PPL"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.43937",
+      "geonameId": 2519068,
+      "toponymName": "Quart de Poblet",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 25499,
+      "countryCode": "ES",
+      "name": "Cuart de Poblet",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "seat of a third-order administrative division",
+      "adminName1": "Valencia",
+      "lat": "39.48139",
+      "fcode": "PPLA3"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.26667",
+      "geonameId": 2519069,
+      "toponymName": "Quart de les Valls",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 992,
+      "countryCode": "ES",
+      "name": "Cuart de les Valls",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "populated place",
+      "adminName1": "Valencia",
+      "lat": "39.73333",
+      "fcode": "PPL"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.68333",
+      "geonameId": 2519522,
+      "toponymName": "Cheste",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 7255,
+      "countryCode": "ES",
+      "name": "Cheste",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "seat of a third-order administrative division",
+      "adminName1": "Valencia",
+      "lat": "39.48333",
+      "fcode": "PPLA3"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.99684",
+      "geonameId": 2519528,
+      "toponymName": "Chelva",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 1986,
+      "countryCode": "ES",
+      "name": "Chelva",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "seat of a third-order administrative division",
+      "adminName1": "Valencia",
+      "lat": "39.7493",
+      "fcode": "PPLA3"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.58443",
+      "geonameId": 2520320,
+      "toponymName": "Canals",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 13941,
+      "countryCode": "ES",
+      "name": "Canals",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "seat of a third-order administrative division",
+      "adminName1": "Valencia",
+      "lat": "38.96251",
+      "fcode": "PPLA3"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-1.4",
+      "geonameId": 2520405,
+      "toponymName": "Camporrobles",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 1372,
+      "countryCode": "ES",
+      "name": "Camporrobles",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "seat of a third-order administrative division",
+      "adminName1": "Valencia",
+      "lat": "39.65",
+      "fcode": "PPLA3"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.51617",
+      "geonameId": 2520751,
+      "toponymName": "Bufali",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 199,
+      "countryCode": "ES",
+      "name": "Bufali",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "seat of a third-order administrative division",
+      "adminName1": "Valencia",
+      "lat": "38.86775",
+      "fcode": "PPLA3"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.46151",
+      "geonameId": 2520968,
+      "toponymName": "Bétera",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 20740,
+      "countryCode": "ES",
+      "name": "Bétera",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "seat of a third-order administrative division",
+      "adminName1": "Valencia",
+      "lat": "39.59111",
+      "fcode": "PPLA3"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.43333",
+      "geonameId": 2521075,
+      "toponymName": "Benigànim",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 5899,
+      "countryCode": "ES",
+      "name": "Benigánim",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "populated place",
+      "adminName1": "Valencia",
+      "lat": "38.95",
+      "fcode": "PPL"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.42598",
+      "geonameId": 2521080,
+      "toponymName": "Benifaió",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 12204,
+      "countryCode": "ES",
+      "name": "Benifayó",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "seat of a third-order administrative division",
+      "adminName1": "Valencia",
+      "lat": "39.28439",
+      "fcode": "PPLA3"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.39686",
+      "geonameId": 2521105,
+      "toponymName": "Benetússer",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 15313,
+      "countryCode": "ES",
+      "name": "Benetússer",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "seat of a third-order administrative division",
+      "adminName1": "Valencia",
+      "lat": "39.42265",
+      "fcode": "PPLA3"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.58333",
+      "geonameId": 2521148,
+      "toponymName": "Benaguasil",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 11011,
+      "countryCode": "ES",
+      "name": "Benaguacil",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "seat of a third-order administrative division",
+      "adminName1": "Valencia",
+      "lat": "39.6",
+      "fcode": "PPLA3"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-1.1",
+      "geonameId": 2521149,
+      "toponymName": "Benagéber",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 177,
+      "countryCode": "ES",
+      "name": "Benagéber",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "seat of a third-order administrative division",
+      "adminName1": "Valencia",
+      "lat": "39.71667",
+      "fcode": "PPLA3"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.15",
+      "geonameId": 2521824,
+      "toponymName": "L'Alqueria de la Comtessa",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 1418,
+      "countryCode": "ES",
+      "name": "Alquería de la Condesa",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "populated place",
+      "adminName1": "Valencia",
+      "lat": "38.93333",
+      "fcode": "PPL"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "totalResultsCount": 6,
+  "geonames": [
+    {
+      "adminCode1": "60",
+      "lng": "-0.41765",
+      "geonameId": 2513029,
+      "toponymName": "Paiporta",
+      "countryId": "2510769",
+      "fcl": "P",
+      "population": 23519,
+      "countryCode": "ES",
+      "name": "Paiporta",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "seat of a third-order administrative division",
+      "adminName1": "Valencia",
+      "lat": "39.42814",
+      "fcode": "PPLA3"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.41186",
+      "geonameId": 6362051,
+      "toponymName": "Paiporta",
+      "countryId": "2510769",
+      "fcl": "A",
+      "population": 24506,
+      "countryCode": "ES",
+      "name": "Paiporta",
+      "fclName": "country, state, region,...",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "third-order administrative division",
+      "adminName1": "Valencia",
+      "lat": "39.42711",
+      "fcode": "ADM3"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.41776",
+      "geonameId": 11994188,
+      "toponymName": "Museu Rajoleria Paiporta",
+      "countryId": "2510769",
+      "fcl": "S",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Museu Rajoleria Paiporta",
+      "fclName": "spot, building, farm",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "museum",
+      "adminName1": "Valencia",
+      "lat": "39.42423",
+      "fcode": "MUS"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.41801",
+      "geonameId": 11994189,
+      "toponymName": "Paiporta",
+      "countryId": "2510769",
+      "fcl": "S",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Paiporta",
+      "fclName": "spot, building, farm",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "metro station",
+      "adminName1": "Valencia",
+      "lat": "39.43206",
+      "fcode": "MTRO"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.41414",
+      "geonameId": 10341822,
+      "toponymName": "Auditorio Municipal",
+      "countryId": "2510769",
+      "fcl": "S",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Auditorio Municipal",
+      "fclName": "spot, building, farm",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "theater",
+      "adminName1": "Valencia",
+      "lat": "39.43006",
+      "fcode": "THTR"
+    },
+    {
+      "adminCode1": "60",
+      "lng": "-0.41754",
+      "geonameId": 10341823,
+      "toponymName": "Parroquia San Jorge Mártir",
+      "countryId": "2510769",
+      "fcl": "S",
+      "population": 0,
+      "countryCode": "ES",
+      "name": "Parroquia San Jorge Mártir",
+      "fclName": "spot, building, farm",
+      "adminCodes1": {
+        "ISO3166_2": "VC"
+      },
+      "countryName": "España",
+      "fcodeName": "church",
+      "adminName1": "Valencia",
+      "lat": "39.43082",
+      "fcode": "CH"
+    }
+  ]
+}
