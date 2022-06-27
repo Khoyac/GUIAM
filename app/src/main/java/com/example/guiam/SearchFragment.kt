@@ -1,82 +1,102 @@
 package com.example.guiam
 
 import android.content.Context
-import android.content.Intent
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.compose.foundation.*
-import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.GridCells
 import androidx.compose.foundation.lazy.LazyVerticalGrid
 import androidx.compose.foundation.shape.CutCornerShape
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.shape.ZeroCornerSize
-import androidx.compose.foundation.text.KeyboardActions
-import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.Shape
-import androidx.compose.ui.layout.ContentScale
-import androidx.compose.ui.layout.VerticalAlignmentLine
 import androidx.compose.ui.platform.ComposeView
 import androidx.compose.ui.text.TextStyle
-import androidx.compose.ui.text.font.FontFamily
-import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.text.input.TextFieldValue
-import androidx.compose.ui.text.input.VisualTransformation
-import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.fragment.app.Fragment
-import com.example.guiam.MainActivity.Companion.mainActivity
+import com.example.guiam.MainActivity.Companion.createPoli
+import com.example.guiam.MainActivity.Companion.filtrarLista
+import com.example.guiam.MainActivity.Companion.listaFija
+import com.example.guiam.MainActivity.Companion.listaMostrar
+import com.example.guiam.MainActivity.Companion.place
 import com.example.guiam.MainActivity.Companion.sampleData
+import com.example.guiam.models.Cities
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 
 class SearchFragment : Fragment() {
 
     @OptIn(ExperimentalFoundationApi::class)
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         return ComposeView(requireContext()).apply {
+
             setContent {
                 //  inflater.inflate(R.layout.fragment_search, container, false)
                 val dataFileString = getJsonFromAsset(context, "valencia.json")
                 val gson = Gson()
                 val gridSampleType = object : TypeToken<List<Cities>>() {}.type
                 sampleData = gson.fromJson(dataFileString, gridSampleType)
+                sampleData.sortedBy { it.name }
+
+                sampleData = sampleData.sortedWith(compareBy { it.name })
+                //val aBuscar = "Pa"
+                //sortedList = sortedList.filter { it.name.contains( aBuscar, ignoreCase = true )}
+
+                listaFija.addAll(sampleData)
+
 
                 Column(
-                    modifier = Modifier.padding(top = 100.dp)
+                    modifier = Modifier.padding(top = 10.dp, bottom = 100.dp)
                 ) {
                     Box {
-                        TextFieldDemo()
+                        TextFieldSearch(context)
                     }
-                    LazyVerticalGrid(
-                        cells = GridCells.Fixed(1),
-                        modifier = Modifier
-                            .padding(10.dp)
-                    ) {
-                        items(sampleData.size) { index ->
-                            val city = sampleData[index];
-                            CitiesListCard(city, context)
-                        }
-                    }
+
+                    CargarLista(context = context)
+
+//                    LazyVerticalGrid(
+//                        cells = GridCells.Fixed(1),
+//                        modifier = Modifier
+//                            .padding(10.dp)
+//                    ) {
+//                        items(sortedList.size) { index ->
+//                            val city = sortedList[index];
+//                            CitiesListCard(city, context)
+//                        }
+//                    }
                 }
             }
         }
     }
+}
+
+@OptIn(ExperimentalFoundationApi::class)
+@Composable
+fun CargarLista(context: Context) {
+    LazyVerticalGrid(
+        cells = GridCells.Fixed(1),
+        modifier = Modifier
+            .padding(10.dp)
+    ) {
+        items(listaMostrar.size) { index ->
+            val city = listaMostrar[index];
+            CitiesListCard(city, context)
+        }
+    }
+
 }
 
 @Composable
@@ -96,50 +116,37 @@ fun CitiesListCard(data: Cities, context: Context) {
 
 @Composable
 fun CitieCard(title: String, cords: String, context: Context, modifier: Modifier = Modifier) {
-//    Card(
-//        modifier = modifier
-//            .fillMaxWidth()
-//            .clickable(
-//                onClick = {
-//                    Toast
-//                        .makeText(context, "Home Item reselected", Toast.LENGTH_SHORT)
-//                        .show()
-//                    //Creamos el intent para cambiar de activity
-//                    //Y pasar la posicion del JSON que se ha clickado
-//                    Log.i("CIUDAD", "CIUDAD -------------: $title")
-//                }
-//            ),
-////        shape = RoundedCornerShape(15.dp),
-////        elevation = 5.dp
-//    ) {
-        Box(modifier = Modifier
-            .fillMaxWidth()
-            .height(40.dp)
-            .background(Color.White)
-            .clickable(
-                onClick = {
-                    mainActivity.createPolylines()
-                    Toast
-                        .makeText(context, title, Toast.LENGTH_SHORT)
-                        .show()
-                }
-            ),
-            contentAlignment = Alignment.Center
-        ) {
-            Text(title, style = TextStyle(color = Color.Black, fontSize = 12.sp))
-        }
-    //}
+    Box(modifier = Modifier
+        .fillMaxWidth()
+        .height(40.dp)
+        .background(Color.White)
+        .clickable(
+            onClick = {
+                createPoli(cords)
+                place = title
+                Toast
+                    .makeText(context, title, Toast.LENGTH_SHORT)
+                    .show()
+            }
+        ),
+        contentAlignment = Alignment.Center
+    ) {
+        Text(title, style = TextStyle(color = Color.Black, fontSize = 12.sp), textAlign = TextAlign.Center)
+    }
 }
 
 @Composable
-fun TextFieldDemo() {
+fun TextFieldSearch(context: Context) {
     Column(Modifier.padding(16.dp)) {
         val textState = remember { mutableStateOf(TextFieldValue()) }
         TextField(
             value = textState.value,
-            onValueChange = { textState.value = it }
+            onValueChange = {
+                textState.value = it
+                filtrarLista(textState.value)
+            }
         )
-        Text("The textfield has this text: " + textState.value.text)
+        Text("Buscar: " + textState.value.text)
     }
 }
 

@@ -9,6 +9,7 @@ buildscript {
         maven {
             url "https://maven.google.com"
         }
+        maven { url 'https://jitpack.io' } // Add jitpack
     }
     dependencies {
         classpath "com.android.tools.build:gradle:7.0.4"

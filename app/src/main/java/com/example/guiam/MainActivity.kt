@@ -7,16 +7,18 @@ import android.content.pm.PackageManager
 import android.content.res.Resources
 import android.os.Bundle
 import android.util.Log
-import android.view.MenuItem
+import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.compose.runtime.mutableStateListOf
+import androidx.compose.ui.text.input.TextFieldValue
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
-import androidx.core.view.GravityCompat
 import androidx.core.view.isVisible
-import androidx.fragment.app.FragmentManager
 import com.example.guiam.databinding.ActivityMainBinding
 import com.example.guiam.databinding.NavHeaderBinding
+import com.example.guiam.models.Cities
+import com.github.theapache64.twyper.SwipedOutDirection
 import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.location.LocationServices
 import com.google.android.gms.maps.CameraUpdateFactory
@@ -35,12 +37,41 @@ enum class ProviderType {
 class MainActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMyLocationButtonClickListener {
     companion object {
         lateinit var mainActivity: MainActivity
+        //lateinit var room: RoomDatabase.ListDb
         const val LOCATION_REQUEST_CODE = 0
+
+        var CitieSelected: String = ""
+
+        var ListPlaces: MutableList<String> = mutableListOf()
+
+        var place: String = "LISTA"
 
         lateinit var sampleData: List<Cities>
 
-        fun createPoli(Cords: String) {
+        //Creamos la lista a mostrar y le damos los valores
+        val listaFija = mutableStateListOf<Cities>()
+        val listaMostrar: List<Cities> = listaFija
 
+
+        fun createPoli(cords: String) {
+            mainActivity.createPolylines(cords)
+        }
+
+        fun filtrarLista(value: TextFieldValue) {
+            val listaFiltrada =
+                if (value.text.isEmpty() || value.text.isBlank()) {
+                    sampleData
+                } else {
+                    val resultList = ArrayList<Cities>()
+                    for (ciudades in sampleData) {
+                        if (ciudades.name.lowercase().contains(value.text.lowercase())) {
+                            resultList.add(ciudades)
+                        }
+                    }
+                    resultList
+                }
+            listaFija.clear()
+            listaFija.addAll(listaFiltrada)
         }
     }
 
@@ -49,16 +80,24 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMyLoca
     private lateinit var binding: ActivityMainBinding
     private lateinit var menuBinding: NavHeaderBinding
     private lateinit var fusedLocationClient: FusedLocationProviderClient
+    private lateinit var polygon: Polygon
+
+    private var mapaStyled = true
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         menuBinding = NavHeaderBinding.inflate(layoutInflater)
+        mainActivity = this
 
         createMapFragment()
 
         setUserInfo()
+
+        //room = databaseBuilder(this, RoomDatabase.ListDb::class.java, "Lists")
+        //    .build()
+
     }
 
     private fun setUserInfo() {
@@ -76,6 +115,23 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMyLoca
         menuBinding.tvNombre.text = provider
 
         binding.bottomNavigation.selectedItemId = R.id.nav_map
+
+        binding.fab.setOnClickListener(View.OnClickListener {
+            ocultarTodo()
+            var mapStile: Int
+            if (mapaStyled) {
+                mapStile = R.raw.map_style2
+                mapaStyled = false
+            } else {
+                mapStile = R.raw.map_style
+                mapaStyled = true
+            }
+            map.setMapStyle(
+                MapStyleOptions.loadRawResourceStyle(
+                    this, mapStile
+                )
+            )
+        })
 
   /*      binding.bottomNavigation.setOnItemSelectedListener { item ->
             when (item.itemId) {
@@ -103,23 +159,25 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMyLoca
                 R.id.nav_search -> {
                     ocultarTodo()
                     binding.vlSearch.isVisible = true
-                    createPolylines()
-
-
                 }
                 R.id.nav_profile -> {
                     ocultarTodo()
-                    Toast.makeText(this, "Home Item reselected", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, "Perfil Proximamente", Toast.LENGTH_SHORT).show()
                 }
                 R.id.nav_list -> {
                     ocultarTodo()
-//                    binding.drawerLayout.openDrawer(GravityCompat.START)
+                    binding.listFragment.isVisible = true
+
+                    val f2 = ListFragment()
+                    val transaction = supportFragmentManager.beginTransaction()
+                    transaction.replace(R.id.listFragment, f2)
+                    transaction.addToBackStack(null)
+                    transaction.commit()
+
                 }
                 R.id.nav_discover -> {
                     ocultarTodo()
-                }
-                R.id.nav_map -> {
-                    ocultarTodo()
+                    binding.swipeFragment.isVisible = true
                 }
             }
             false
@@ -128,8 +186,10 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMyLoca
     }
 
 
-    private fun ocultarTodo() {
+    public fun ocultarTodo() {
         binding.vlSearch.isVisible = false
+        binding.swipeFragment.isVisible = false
+        binding.listFragment.isVisible = false
     }
 
 
@@ -139,6 +199,7 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMyLoca
         //Hacer o no Zoom
         map.uiSettings.isZoomControlsEnabled = false
         map.cameraPosition.bearing
+        map.uiSettings.isMyLocationButtonEnabled = false
 
         //createPolylines()
         //createMarker()
@@ -189,6 +250,9 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMyLoca
         } catch (e: Resources.NotFoundException) {
             Log.e(ContentValues.TAG, "Can't find style. Error: ", e)
         }
+
+
+        polygon = map.addPolygon(PolygonOptions().add(LatLng(0.0, 0.0), LatLng(0.0, 0.0)))
     }
 
     override fun onMyLocationButtonClick(): Boolean {
@@ -244,37 +308,57 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMyLoca
         }
     }
 
-    fun createPolylines(){
+    fun createPolylines(cords: String) {
+        //Remove the previous Polygon
+        polygon.remove()
 
-        val corsString = "-0.403360992669946,39.415985107422 -0.405613005161285,39.4128799438477 -0.406691014766693,39.4157524108887 -0.416732996702194,39.4139823913575 -0.420953989028874,39.4194984436036 -0.42077100276947,39.4241256713868 -0.425523012876511,39.4259872436523 -0.426028996706009,39.4305572509766 -0.41967698931694,39.431453704834 -0.420830994844437,39.4351348876953 -0.415152996778488,39.4360694885254 -0.402814000844955,39.4369239807129 -0.401867985725289,39.4280319213867 -0.401899993419647,39.4268684387208 -0.403596013784409,39.4190063476564 -0.403360992669946,39.415985107422"
-        val corsPairs = corsString.split(" ")
-
-        //val polylinePaiporta = PolylineOptions()
+        //We receive a string with all the coordinates,
+        //we have to separate them first in pairs and then in Latitude and Longitude
+        //we go through the list and add the vertices of the polygon
+        val corsPairs = cords.split(" ")
         val polygonOptions = PolygonOptions()
 
-       // val layer = KmlLayer(map, R.raw.esp, getApplicationContext())
-        //layer.addLayerToMap()
+        var cord: Boolean = true
+        var lat: Double = 0.0
+        var lon: Double = 0.0
 
         for (cors in corsPairs) {
             val cor = cors.split(",")
+            if (cord) {
+                lat = cor[1].toDouble()
+                lon = cor[0].toDouble()
+                cord = false
+            }
             polygonOptions.add(LatLng(cor[1].toDouble(), cor[0].toDouble()))
         }
 
-       // polylinePaiporta.color(0xFFFFFFFF.toInt())
-       // polylinePaiporta.width(1.0F)
+        //Move the camera to the new position
+        map.animateCamera(
+            CameraUpdateFactory.newLatLngZoom(LatLng(lat, lon), 12f),
+            4000,
+            null
+        )
 
+        //We give functionality when clicking on the polygon
+        map.setOnPolygonClickListener {
+            Toast.makeText(this, place, Toast.LENGTH_SHORT).show()
+            ocultarTodo()
+            binding.swipeFragment.isVisible = true
+        }
 
-//        val polylineOptions = PolylineOptions()
-//            .add(LatLng(39.42283,-0.41542))
-//            .add(LatLng( 39.42243, -0.41542))
-//            .add(LatLng( 39.42243, -0.41502))
-//            .add(LatLng( 39.42283, -0.41502))
-//        val polyline = map.addPolyline(polylinePaiporta)
-//        polyline.
-        val polygon = map.addPolygon( polygonOptions )
+        //We add the polygon and give it style and values
+        polygon = map.addPolygon( polygonOptions )
         polygon.fillColor = 0xFFae3e97.toInt()
         polygon.strokeWidth = 1.0F
         polygon.strokeColor = 0xFF000000.toInt()
+        polygon.isClickable = true
+
+    }
+
+    fun gestionarLista(item: Char, direction: SwipedOutDirection) {
+        if (direction.name == "RIGHT") {
+            ListPlaces.add(item.toString())
+        }
     }
 
 }

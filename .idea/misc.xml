@@ -4,16 +4,25 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/.Proyectos/Guiam/App/app/src/main/res/drawable-hdpi/background_transparent.xml" value="0.211" />
+        <entry key="..\:/.Proyectos/Guiam/App/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.126" />
         <entry key="..\:/.Proyectos/Guiam/App/app/src/main/res/drawable/ic_home.xml" value="0.217" />
+        <entry key="..\:/.Proyectos/Guiam/App/app/src/main/res/drawable/ic_launcher_background.xml" value="0.126" />
+        <entry key="..\:/.Proyectos/Guiam/App/app/src/main/res/drawable/ic_map_background.xml" value="0.126" />
+        <entry key="..\:/.Proyectos/Guiam/App/app/src/main/res/drawable/ic_user_background.xml" value="0.126" />
         <entry key="..\:/.Proyectos/Guiam/App/app/src/main/res/layout/activity_login.xml" value="0.2341485507246377" />
-        <entry key="..\:/.Proyectos/Guiam/App/app/src/main/res/layout/activity_main.xml" value="0.1488673139158576" />
+        <entry key="..\:/.Proyectos/Guiam/App/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/.Proyectos/Guiam/App/app/src/main/res/layout/activity_map.xml" value="0.3625" />
         <entry key="..\:/.Proyectos/Guiam/App/app/src/main/res/layout/background_transparent.xml" value="0.2875" />
+        <entry key="..\:/.Proyectos/Guiam/App/app/src/main/res/layout/fragment_list.xml" value="0.25" />
         <entry key="..\:/.Proyectos/Guiam/App/app/src/main/res/layout/fragment_map.xml" value="0.3625" />
         <entry key="..\:/.Proyectos/Guiam/App/app/src/main/res/layout/fragment_search.xml" value="0.28229166666666666" />
+        <entry key="..\:/.Proyectos/Guiam/App/app/src/main/res/layout/fragment_swipe.xml" value="0.3625" />
         <entry key="..\:/.Proyectos/Guiam/App/app/src/main/res/layout/nav_header.xml" value="0.1762917933130699" />
         <entry key="..\:/.Proyectos/Guiam/App/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.1" />
         <entry key="..\:/.Proyectos/Guiam/App/app/src/main/res/menu/menu.xml" value="0.33" />
+        <entry key="..\:/.Proyectos/Guiam/App/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2465" />
+        <entry key="..\:/.Proyectos/Guiam/App/app/src/main/res/mipmap-anydpi-v26/ic_user.xml" value="0.126" />
+        <entry key="..\:/.Proyectos/Guiam/App/app/src/main/res/mipmap-anydpi-v26/ic_user_round.xml" value="0.126" />
         <entry key="..\:/Trabajos/Guiam/GuiamApp/app/src/main/res/layout/activity_main.xml" value="0.19114583333333332" />
       </map>
     </option>

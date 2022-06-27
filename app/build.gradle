@@ -47,6 +47,7 @@ android {
     }
 }
 
+apply plugin: 'kotlin-kapt'
 dependencies {
 
     implementation 'androidx.core:core-ktx:1.7.0'
@@ -83,4 +84,15 @@ dependencies {
     implementation 'com.google.android.gms:play-services-location:19.0.1'
     implementation 'com.google.maps.android:android-maps-utils:2.0.3'
 
+    // ROOM
+    def room_version = "2.4.2"
+
+    implementation "androidx.room:room-runtime:$room_version"
+    kapt "androidx.room:room-compiler:$room_version"
+    implementation 'androidx.core:core-ktx:1.8.0'
+    implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.4.1'
+
+    // TWYPER
+    //implementation 'com.github.theapache64:twyper:0.0.4'
+    //implementation project(":twyper")
 }
